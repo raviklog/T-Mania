@@ -1,0 +1,18 @@
+export class productData
+{
+    id:number;
+    name:string;
+    description:string;
+    icon:string;
+    price:number;
+}
+
+export class myCart
+{
+    products:productData[];
+    subscriptionActive:boolean;
+    subscriptionStart:Date;
+    subscriptionEnd:Date;
+    subscriptionPlan:string;
+    deliveryAddress:string;
+}
