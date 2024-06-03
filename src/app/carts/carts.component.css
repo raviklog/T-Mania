@@ -1,0 +1,57 @@
+#container {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 350px; /* Adjust this value to match the height of your footer */
+    background-image:"assets/images/TMania_BGM4.png";
+    background-position: right;
+    background-size: cover;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    /*background-color: aqua; */
+  }
+
+cartul {
+    list-style: square;
+    list-style-type: circle;
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 1;
+    list-style-type: square;
+    container-type: normal;
+}
+cartli {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 500px;
+    height: auto;
+    border-style: groove;
+    border-image: fill;
+    background-color: rgb(40, 100, 80);
+}
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+    word-wrap: normal;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: brown;
+    font-weight: bolder;
+    /* font-stretch: expanded; */
+}
+.icon {
+    width: 120px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
